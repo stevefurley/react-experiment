@@ -22,16 +22,13 @@ class MobileMenu extends Component {
 
   render() {
     return (
-      <div>
-         Just clicked: {this.state.justClicked}
-         <ul>
-           {this.state.letters.map(letter =>
-             <li key={letter} data-letter={letter} onClick={this.handleClick}>
-               {letter}
-             </li>
-           )}
-         </ul>
-       </div>
+
+        <ul >asdasddsadsasaddsa
+        <li>Home</li>
+        <li>about</li>
+        <li>Home</li>
+        </ul>
+
     );
   }
 }

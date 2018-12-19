@@ -46,9 +46,9 @@ class App extends React.Component {
       return (
         <div>
 
-        <nav className='mobile-menu'>
+        <div className='mobile-menu'>
         {mobileMenu === "MobileMenu" && <MobileMenu jsonData={this.state.data} />}
-        </nav>
+        </div>
 
         <div className='wrap'>
 
