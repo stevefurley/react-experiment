@@ -1,0 +1,20 @@
+// Footer
+html,
+body {
+   margin:0;
+   padding:0;
+   height:100%;
+}
+
+body #wrapper{
+  background: white;
+  color: #282828;
+  display: flex; //forces footer down
+  flex-direction: column; //forces footer down
+  min-height: 100vh; //forces footer down
+}
+
+#footer {
+  margin-top: auto; //forces footer down
+  background: grey;
+}

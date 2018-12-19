@@ -1,0 +1,30 @@
+// Header
+#header {
+  background: #383962;
+}
+
+.container {
+  width: 100%;
+  margin: auto;
+  max-width: 1200px;
+}
+
+#header-menu {
+  ul {
+    padding: 0;
+    margin: 0;
+    li {
+      margin: 0;
+      padding: 0;
+      list-style-type: none;
+      display: inline-block;
+      a {
+        display: block;
+        color: white;
+        text-decoration: none;
+        padding: 0 15px;
+      }
+    }
+  }
+}
+/*Basic Grid Styles*/
