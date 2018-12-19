@@ -36,7 +36,7 @@ class App extends React.Component {
     if(this.state.mode === 'view') {
 
       var header = 'Header';
-      var mobileMenu = 'mobileMenu';
+      var mobileMenu = 'MobileMenu';
       var mainContent = 'MainContent';
       var contact = 'Contact';
       var footer = 'Footer';
